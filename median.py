@@ -16,7 +16,6 @@ print(numbers)
 numbers.sort()
 
 if len(numbers) % 2 == 0:
-    print(numbers[int(len(numbers)/2-1)])
-    print(numbers[int(len(numbers)/2)])
+    print((numbers[int(len(numbers)/2-1)]+numbers[int(len(numbers)/2)])/2)
 else:
     print(numbers[floor(len(numbers)/2)])
