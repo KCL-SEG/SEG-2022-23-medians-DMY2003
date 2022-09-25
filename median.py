@@ -1,6 +1,8 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
 
+from math import floor
+
 while True:
     try:
         print("Enter a list of numbers separated by commas: ")
@@ -10,3 +12,11 @@ while True:
     else:
         break
 print(numbers)
+
+numbers.sort()
+
+if len(numbers) % 2 == 0:
+    print(numbers[int(len(numbers)/2-1)])
+    print(numbers[int(len(numbers)/2)])
+else:
+    print(numbers[floor(len(numbers)/2)])
