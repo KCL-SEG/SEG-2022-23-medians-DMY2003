@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Sorted values test",
+      "setup": "",
+      "run": "python median.py",
+      "input": "1,2,3,4,5",
+      "output": "3.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Five value test",
+      "setup": "",
+      "run": "python median.py",
+      "input": "8,789,2,9,391",
+      "output": "9.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Eight value test",
+      "setup": "",
+      "run": "python median.py",
+      "input": "6,7,9,4658,2365,1,1,1",
+      "output": "6.5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Ten value test",
+      "setup": "",
+      "run": "python median.py",
+      "input": "2,2,2,9,9,9,9,2,2,2",
+      "output": "2.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Single value test",
+      "setup": "",
+      "run": "python median.py",
+      "input": "3",
+      "output": "3.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
