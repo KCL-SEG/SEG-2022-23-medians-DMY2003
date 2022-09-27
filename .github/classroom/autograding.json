@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python median.py",
       "input": "1,2,3,4,5",
-      "output": "^\\s*3\\.0\\s*\\n?$",
+      "output": "^.*3\\.0\\s*\\n?$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
